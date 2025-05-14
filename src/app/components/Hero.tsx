@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
-import { delay, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { fadeInUp, scaleIn } from '@/utils/animation'
 
 const Hero = () => {

@@ -32,7 +32,7 @@ const Projects = () => {
                       <Link href={project.githubLink} target='_blank' className='flex items-center gap-2 text-secondary hover:text-primary transition-colors'>
                         <FaGithub className='w-5 h-5'/><span>Code</span>
                       </Link>
-                      <Link href={project.githubLink} target='_blank' className='flex items-center gap-2 text-secondary hover:text-primary transition-colors'>
+                      <Link href={project.demoLink} target='_blank' className='flex items-center gap-2 text-secondary hover:text-primary transition-colors'>
                         <FaExternalLinkAlt className='w-5 h-5'/><span>Live Demo</span>
                       </Link>
                     </div>

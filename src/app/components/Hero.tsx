@@ -8,32 +8,32 @@ import { fadeInUp, scaleIn } from '@/utils/animation'
 
 const Hero = () => {
   return (
-    <section className='py-28 container max-w-7xl mx-auto px-4'>
+    <section className='py-20 container max-w-7xl mx-auto px-4'>
         <div className='max-w-3xl mx-auto text-center'>
             <motion.div 
             {...scaleIn}
             transition={{delay:0.2}}
             className='flex flex-col items-center mb-4'>
-                <Image src="/profile.avif" alt="profile image" width={100} height={100} className='rounded-full mb-4 w-32 h-32 object-cover ring-2 ring-primary' />
+                <Image src="/photo-profile.png" alt="profile image" width={896} height={1152} className='rounded-full mb-4 w-32 h-32 object-cover ring-2 ring-primary' />
             </motion.div>
 
             <motion.h1 
             {...fadeInUp}
             transition={{delay: 0.3}}
-            className='text-4xl md:text-6xl font-bold mb-6'>Hai, Saya <span className='text-primary'>Asep Nur Cecep</span></motion.h1>
+            className='text-4xl md:text-6xl font-bold mb-6'>Hai, Saya <span className='text-primary'>Ardi Juniawan</span></motion.h1>
             <motion.p 
             {...fadeInUp}
             transition={{delay: 0.5}}
-            className='text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, officia</motion.p>
+            className='text-xl md:text-2xl text-gray-600 dark:text-gray-300 mb-8'>Full Stack Developer</motion.p>
 
             <div className='flex justify-center space-x-4 mb-8'>
-                <Link href="/" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>
+                <Link href="https://github.com/ardi-juniawan" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>
                     <FaGithub/>
                 </Link>
-                <Link href="/" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>
+                <Link href="https://www.linkedin.com/in/ardijuniawan" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>
                     <FaLinkedin/>
                 </Link>
-                <Link href="/" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>
+                <Link href="https://www.instagram.com/ardijuniawan" className='text-2xl text-gray-600 hover:text-primary dark:text-gray-300 transition-colors duration-300'>
                     <FaInstagram/>
                 </Link>
             </div>

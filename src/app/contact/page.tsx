@@ -72,7 +72,7 @@ const ContactPage = () => {
                             <FaWhatsapp className="w-6 h-6 text-primary" />
                             <div>
                                 <h3 className="text-semibold">Whatsapp</h3>
-                                <Link href="tel:+6285157563445" className="text-secondary hover:text-primary">(+62)851-5756-3445</Link>
+                                <Link href="https://wa.me/6285157563445" className="text-secondary hover:text-primary">(+62)851-5756-3445</Link>
                             </div>
                         </div>
 

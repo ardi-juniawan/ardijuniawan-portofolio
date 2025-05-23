@@ -7,7 +7,7 @@ export const projects: Project[] = [
         technologies: ['HTML', 'CSS', 'JavaScript', 'React'],
         githubLink: 'https://github.com/ardi-juniawan/videobelajar2.0',
         demoLink: 'https://videobelajar2-0.vercel.app/',
-        image: '/projects/e-commerce-website.png',
+        image: '/projects/videobelajar.png',
       },
       {
         title: 'CMR Car Rental',
@@ -15,7 +15,7 @@ export const projects: Project[] = [
         technologies: ['HTML', 'CSS', 'JavaScript'],
         githubLink: 'https://github.com/ardi-juniawan/cmr-car-rental',
         demoLink: 'https://cmr-car-rental.vercel.app/',
-        image: '/projects/task-manager.webp',
+        image: '/projects/cmr.png',
       },
       {
         title: 'Portfolio Website',
@@ -23,6 +23,6 @@ export const projects: Project[] = [
         technologies: ['Next.js', 'Tailwind CSS', 'Framer Motion'],
         githubLink: 'https://github.com/ardi-juniawan/ardijuniawan-portofolio',
         demoLink: 'https://ardijuniawan-portofolio.vercel.app/',
-        image: '/projects/portfolio-website.jpg',
+        image: '/projects/portfolio.png',
       }
   ];

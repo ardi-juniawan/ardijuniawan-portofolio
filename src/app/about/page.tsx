@@ -8,7 +8,7 @@ const About = () => {
 
       {/* Bio Section */}
       <section className='mb-16'>
-        <p className='text-lg text-secondary max-w-3xl mx-auto text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic maxime nemo, modi ut molestias minus alias. Necessitatibus in quas cupiditate sint vero, quos omnis a deleniti impedit architecto possimus minima.</p>
+        <p className='text-lg text-secondary max-w-3xl mx-auto text-center'>Saya seorang web developer yang fokus pada pengembangan website modern, responsif, dan efisien. Menguasai front-end dan back-end dengan teknologi terkini.</p>
       </section>
 
       {/* Skilss Section */}
@@ -22,6 +22,7 @@ const About = () => {
               <li>React / Next.js</li>
               <li>TypeScript</li>
               <li>Tailwind CSS</li>
+              <li>Bootstrap CSS</li>
               <li>HTML5 / CSS3</li>
             </ul>
           </div>
@@ -31,9 +32,9 @@ const About = () => {
             <h3 className='text-xl font-semibold mb-2'>BackEnd</h3>
             <ul className='text-secondary space-y-2'>
               <li>Node.js</li>
-              <li>Express</li>
+              <li>Golang</li>
               <li>PostgreSQL</li>
-              <li>MongoDB</li>
+              <li>MySQL</li>
             </ul>
           </div>
 
@@ -42,9 +43,7 @@ const About = () => {
             <h3 className='text-xl font-semibold mb-2'>Tools & Others</h3>
             <ul className='text-secondary space-y-2'>
               <li>Git / Github</li>
-              <li>Docker</li>
-              <li>AWS</li>
-              <li>CI / CD</li>
+              <li>Canva</li>
             </ul>
           </div>
         </div>
@@ -56,8 +55,8 @@ const About = () => {
 
         <div className='max-w-3xl mx-auto space-y-8'>
           <div className='bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md'>
-            <h3 className='text-xl font-semibold mb-2'>Senior Full Stack Developer</h3>
-            <p className='text-primary mb-2'>Company Name | 2020 - present</p>
+            <h3 className='text-xl font-semibold mb-2'>Intern Programmer</h3>
+            <p className='text-primary mb-2'>PT Jaya Mahe | Desember 2024 - Juni 2025</p>
             <ul className='text-secondary space-y-2 list-disc list-inside'>
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
               <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
@@ -66,12 +65,14 @@ const About = () => {
           </div>
 
           <div className='bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md'>
-            <h3 className='text-xl font-semibold mb-2'>Senior Full Stack Developer</h3>
-            <p className='text-primary mb-2'>Company Name | 2020 - present</p>
+            <h3 className='text-xl font-semibold mb-2'>Service Officer</h3>
+            <p className='text-primary mb-2'>PT Sentrum Promosi Indonesia | Juni 2023 - Juni 2024</p>
             <ul className='text-secondary space-y-2 list-disc list-inside'>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-              <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
+              <li>Memonitoring transaksi pulsa serta layanan PPOB lainnya</li>
+              <li>Melakukan setup produk layanan pulsa atau PPOB</li>
+              <li>Melayani chat client atau customer</li>
+              <li>Mengerjakan orderan client sesuai kebutuhan setiap minggunya</li>
+              <li>Melakukan pengecekan stock untuk kebutuhan client setiap hari</li>
             </ul>
           </div>
         </div>
@@ -84,9 +85,9 @@ const About = () => {
 
         <div className='max-w-3xl mx-auto space-y-8'>
           <div className='bg-white dark:bg-dark/50 p-6 rounded-lg shadow-md'>
-            <h3 className='text-xl font-semibold mb-2'>Bachelor of Computer System</h3>
+            <h3 className='text-xl font-semibold mb-2'>Sarjana Sistem Komputer</h3>
             <p className='text-primary mb-2'>ITB STIKOM Bali | 2019 - 2024</p>
-            <p className='text-secondary'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In vel nostrum quia perspiciatis culpa fuga inventore nulla itaque maxime sit, quo obcaecati sapiente deleniti, reiciendis quam, possimus quis dolorem minima.</p>
+            <p className='text-secondary'>Selama menempuh pendidikan di STIKOM Bali, saya mempelajari dasar-dasar pengembangan perangkat lunak, jaringan komputer, dan sistem informasi. Selain itu, saya juga aktif berorganisasi selama lebih dari 3 tahun, yang mengasah kemampuan kepemimpinan, komunikasi, dan kerja tim dalam lingkungan profesional dan kolaboratif.</p>
           </div>
 
         </div>
